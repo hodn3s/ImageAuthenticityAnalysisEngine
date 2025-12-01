@@ -19,10 +19,16 @@ The forgery detection tool contained in this repository currently features foren
 
 Navigate to the **Project** directory:
 ```
-$ cd Image_Manipulation_Detection_System_Python
+$ cd ImageAuthenticityAnalysisEngine
 ```
+if error delete and reinstall env
+python -m venv forgery_env
+.\forgery_env\Scripts\Activate
+pip install --upgrade pip
 
-Next, run the **detect.py** script, providing the image you wish to evaluate:
+pip install -r requirements.txt
+
+Next, run the **GUI.py** script, providing the image you wish to evaluate:
 ```
 $ python GUI.py
 ```
