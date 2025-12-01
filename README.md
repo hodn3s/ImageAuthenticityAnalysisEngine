@@ -12,14 +12,14 @@ The forgery detection tool contained in this repository currently features foren
 - Error Level Analysis
 - Image Extraction
 - String Extraction
-
+- For More Detail - [Research Paper](https://journals.grdpublications.com/index.php/ijprse/article/view/537/507)
 
 ## To Run:
-git@github.com:hodn3s/ImageAuthenticityAnalysisEngine.git
+<!-- Place any(JPEG) images that you wish to analyze into the **image** folder Present in the Project directory. -->
 
 Navigate to the **Project** directory:
 ```
-$ cd ImageAuthenticityAnalysisEngine
+$ cd Image_Manipulation_Detection_System_Python
 ```
 
 Next, run the **detect.py** script, providing the image you wish to evaluate:
